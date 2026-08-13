@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">RepoScope analysis workflow</title>
+  <desc id="desc">Repository discovery, applicable static analysis, finding classification and review-ready output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0c141d"/><stop offset="1" stop-color="#10222d"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#58d5b5"/></marker>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <text x="58" y="60" fill="#f2f6f9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="700">Analysis flow</text>
+  <text x="58" y="90" fill="#8598a8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">High-level public view of the pipeline.</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g transform="translate(58 136)"><rect width="205" height="100" rx="16" fill="#13212d" stroke="#2b4353"/><text x="102" y="42" text-anchor="middle" fill="#61d8b8" font-size="17" font-weight="700">Repository</text><text x="102" y="68" text-anchor="middle" fill="#afbec9" font-size="13">local project input</text></g>
+    <g transform="translate(294 136)"><rect width="205" height="100" rx="16" fill="#13212d" stroke="#2b4353"/><text x="102" y="42" text-anchor="middle" fill="#61d8b8" font-size="17" font-weight="700">Discovery</text><text x="102" y="68" text-anchor="middle" fill="#afbec9" font-size="13">classify &amp; track coverage</text></g>
+    <g transform="translate(530 136)"><rect width="205" height="100" rx="16" fill="#13212d" stroke="#2b4353"/><text x="102" y="42" text-anchor="middle" fill="#61d8b8" font-size="17" font-weight="700">Static analysis</text><text x="102" y="68" text-anchor="middle" fill="#afbec9" font-size="13">apply compatible checks</text></g>
+    <g transform="translate(766 136)"><rect width="205" height="100" rx="16" fill="#13212d" stroke="#2b4353"/><text x="102" y="42" text-anchor="middle" fill="#6aafff" font-size="17" font-weight="700">Findings</text><text x="102" y="68" text-anchor="middle" fill="#afbec9" font-size="13">severity · confidence · context</text></g>
+    <g transform="translate(1002 136)"><rect width="140" height="100" rx="16" fill="#13212d" stroke="#2b4353"/><text x="70" y="42" text-anchor="middle" fill="#6aafff" font-size="17" font-weight="700">Output</text><text x="70" y="68" text-anchor="middle" fill="#afbec9" font-size="13">people &amp; CI</text></g>
+  </g>
+  <path d="M263 186H284M499 186H520M735 186H756M971 186H992" stroke="#58d5b5" stroke-width="4" marker-end="url(#arrow)"/>
+</svg>
